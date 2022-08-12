@@ -31,7 +31,7 @@ const GaleryOfItemsMusic = () => {
           <div className="w-80 bg-white p-3">
           <h2 className="text-xl m-2 text-center">Buscar en Blogs</h2>
           <Link href="https://coobis.com/es/cooblog/blogs-de-musica-de-mexico/">
-            <Img className="h-52 w-full object-cover" src="https://st2.depositphotos.com/1420973/6409/i/450/depositphotos_64095317-stock-photo-blog-concept-cloud-chart-print.jpg" />
+            <img className="h-52 w-full object-cover" src="https://st2.depositphotos.com/1420973/6409/i/450/depositphotos_64095317-stock-photo-blog-concept-cloud-chart-print.jpg" />
           </Link>
 
           </div>
