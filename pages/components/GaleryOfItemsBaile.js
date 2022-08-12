@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+import tw from "tailwind-styled-components"
+
+
 
 const GaleryOfItemsBaile = () => {
   return (
@@ -8,28 +11,28 @@ const GaleryOfItemsBaile = () => {
           <div className="w-80 bg-white p-3">
             <h2 className="text-xl m-2 text-center">Buscar en Youtube</h2>
             <Link href="https://www.youtube.com/results?search_query=baile">
-            <img className="h-52 w-full object-cover" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" />
+            <Img className="h-52 w-full object-cover" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" />
             </Link>
 
           </div>
           <div className="w-80 bg-white p-3">
           <h2 className="text-xl m-2 text-center">Buscar en Facebook</h2>
           <Link href="https://www.facebook.com/search/top?q=baile">
-            <img className="h-52 w-full object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png" />
+            <Img className="h-52 w-full object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png" />
           </Link>
 
           </div>
           <div className="w-80 bg-white p-3">
           <h2 className="text-xl m-2 text-center">Buscar en Vimeo</h2>
           <Link href="https://vimeo.com/">
-            <img className="h-52 w-full object-contain" src="https://seeklogo.com/images/V/vimeo-icon-logo-441934AEB1-seeklogo.com.png" />
+            <Img className="h-52 w-full object-contain" src="https://seeklogo.com/images/V/vimeo-icon-logo-441934AEB1-seeklogo.com.png" />
           </Link>
 
           </div>
           <div className="w-80 bg-white p-3">
           <h2 className="text-xl m-2 text-center">Buscar en Blogs</h2>
           <Link href="https://www.superprof.mx/blog/aprender-blogs-danza/">
-            <img className="h-52 w-full object-cover" src="https://st2.depositphotos.com/1420973/6409/i/450/depositphotos_64095317-stock-photo-blog-concept-cloud-chart-print.jpg" />
+            <Img className="h-52 w-full object-cover" src="https://st2.depositphotos.com/1420973/6409/i/450/depositphotos_64095317-stock-photo-blog-concept-cloud-chart-print.jpg" />
           </Link>
 
           </div>
@@ -40,3 +43,8 @@ const GaleryOfItemsBaile = () => {
 }
 
 export default GaleryOfItemsBaile
+
+const Img=tw.img
+`
+
+`
